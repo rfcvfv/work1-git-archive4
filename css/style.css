@@ -1,0 +1,10 @@
+:root { --ink: #1f2933; --brand: #2f6fed; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Microsoft YaHei", sans-serif; color: var(--ink); }
+.hero { padding: 80px 24px; background: linear-gradient(135deg, #eef4ff, #ffffff); text-align: center; }
+.hero h1 { margin: 0 0 12px; font-size: 36px; }
+.tagline { color: #52606d; }
+.skills { display: flex; gap: 12px; flex-wrap: wrap; padding: 40px 24px; }
+.tag { padding: 6px 14px; border: 1px solid var(--brand); border-radius: 999px; color: var(--brand); }
+.site-footer { padding: 24px; text-align: center; color: #7b8794; }
+@media (max-width: 600px) { .hero { padding: 48px 16px; } .hero h1 { font-size: 26px; } }
